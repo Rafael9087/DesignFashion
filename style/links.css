@@ -1,0 +1,27 @@
+.links {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.links:hover, .links-rodape:hover, .social-icon:hover {
+    border-bottom: solid var(--cor-terciaria);
+    color: var(--cor-terciaria);
+    transition: color 0.3s ease;
+}
+
+.mini-link {
+    text-decoration: none;
+    color: rgb(123, 123, 123);
+    transition: 0.3 ease;
+}
+
+.mini-link:hover {
+    transform: scale(1.1);
+}
+
+.links-rodape {
+    text-decoration: none;
+    color: white;
+}

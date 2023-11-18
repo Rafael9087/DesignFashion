@@ -1,0 +1,44 @@
+.centro-distribuicao img, .familia-pelho img {
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 0px black;
+    pointer-events: none;
+    user-select: none;
+}
+
+.logo {
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    max-width: 60px;
+    height: auto;
+    padding: 5px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.principal {
+    background-color: var(--cor-secundaria);
+    flex-direction: column;
+    align-items: start;
+    display: flex;
+    padding: 20px;
+    color: white;
+    gap: 3rem;
+}
+
+.diferenciais {
+    background-color: var(--cor-terciaria);
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    height: 30%;
+    width: 40%;
+}
+
+.diferenciais ul {
+    list-style-type: none;
+}
+  

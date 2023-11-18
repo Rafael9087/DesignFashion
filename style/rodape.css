@@ -1,0 +1,23 @@
+.rodape {
+    background-color: var(--cor-primaria);
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    display: flex;
+    padding: 20px;
+    line-height: 2;
+}
+
+.rodape ul {
+    list-style-type: none;
+}
+
+.rodape li {
+    line-height: 2;
+}
+
+.social-icon {
+    font-size: 1px;
+    margin-right: 0.5px;
+    color: white;
+}

@@ -1,0 +1,46 @@
+.cabecalho {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    margin-right: 18rem;
+    font-size: 32px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: var(--cor-terciaria);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="text"]:hover {
+    border-color: var(--cor-terciaria);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--cor-secundaria);
+    transition: background-color 0.3s ease;
+}
